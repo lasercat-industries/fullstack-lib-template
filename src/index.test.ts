@@ -1,8 +1,8 @@
 import { describe, expect, it } from 'bun:test';
 
 function hello(name: string): string {
-    return `Hello, ${name}!`;
-  }
+  return `Hello, ${name}!`;
+}
 
 describe('hello', () => {
   it('should return a greeting', () => {
